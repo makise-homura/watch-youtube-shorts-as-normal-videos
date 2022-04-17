@@ -1,6 +1,6 @@
 # Watch Youtube Shorts as normal videos
 
-A very simple userscript to open any Youtube Short video as if it was a normal video.
+An userscript to open any Youtube Short video as if it was a normal video.
 (e.g. comment section, horizontal orientation, etc.)
 
 ## Installation
