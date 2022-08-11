@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name     Watch Youtube shorts as normal videos
-// @version  2
+// @version  2.1
 // @grant    none
 // @author   makise-homura
 // @match    https://www.youtube.com/*
