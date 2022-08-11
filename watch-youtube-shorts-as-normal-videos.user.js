@@ -4,6 +4,7 @@
 // @grant    none
 // @author   makise-homura
 // @include  https://www.youtube.com/*
+// @run-at   document-start
 // ==/UserScript==
 
 function replaceLocation()
