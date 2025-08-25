@@ -1,8 +1,9 @@
 // ==UserScript==
 // @name     Watch Youtube shorts as normal videos
-// @version  2.1
+// @version  2.2
 // @grant    none
 // @author   makise-homura
+// @author   bakatrouble
 // @match    https://www.youtube.com/*
 // @run-at   document-start
 // ==/UserScript==
@@ -46,4 +47,12 @@ window.onload = function()
     };
 
     observer.observe(bodyList, config);
+
+    setInterval(() => {
+        document.querySelectorAll('a').forEach(el => {
+            if (el.href.includes('/shorts/')) {
+                el.href = el.href.replace('/shorts/', '/watch?v=');
+            }
+        });
+    }, 1000);
 };
